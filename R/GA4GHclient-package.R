@@ -15,7 +15,7 @@
 #'
 #' @importClassesFrom GenomicRanges GRangesList
 #' @importMethodsFrom BiocGenerics as.data.frame start end lengths
-#' @importMethodsFrom GenomeInfoDb seqnames
+#' @importMethodsFrom Seqinfo seqnames
 #' @importFrom Biostrings DNAStringSet BString
 #' @importFrom dplyr %>% bind_rows select starts_with mutate
 #' @importFrom GenomicRanges makeGRangesFromDataFrame

@@ -130,6 +130,7 @@ library(GA4GHclient)
 library(org.Hs.eg.db)
 library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 library(VariantAnnotation)
+library(GenomeInfoDb)  # for seqlevelsStyle()
 ```
 
 For this example we will use [Hosting Thousand Genomes Project](http://1kgenomes.ga4gh.org/) server.
